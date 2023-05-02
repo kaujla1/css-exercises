@@ -24,3 +24,51 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.info-panel {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  flex-basis: 200px;
+}
+
+
+
+/* INITIAL SOLUTION:
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.info-panels {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-container {
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  padding: 5px;
+}
+
+*/
